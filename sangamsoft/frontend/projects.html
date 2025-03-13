@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - SangamSoft Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">Sangam<span class="brand-highlight">Soft</span></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html#web-development">Web Development</a></li>
+                            <li><a class="dropdown-item" href="services.html#app-development">App Development</a></li>
+                            <li><a class="dropdown-item" href="services.html#cloud-solutions">Cloud Solutions</a></li>
+                            <li><a class="dropdown-item" href="services.html#devops">DevOps Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title" data-aos="fade-up">Our <span class="gradient-text">Projects</span></h1>
+                    <nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="100">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Projects</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="page-header-shape">
+            <img src="img/wave-shape.svg" alt="Wave Shape">
+        </div>
+    </section>
+
+    <!-- Project Filters -->
+    <section class="project-filters py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="filter-buttons" data-aos="fade-up">
+                        <button class="filter-btn active" data-filter="all">All Projects</button>
+                        <button class="filter-btn" data-filter="web">Web Development</button>
+                        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                        <button class="filter-btn" data-filter="cloud">Cloud Solutions</button>
+                        <button class="filter-btn" data-filter="ai">AI & ML</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid-section py-4">
+        <div class="container">
+            <div class="row">
+                <!-- ShopEasy E-commerce Project -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="web" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/img/shopeasy.png" alt="ShopEasy E-commerce Platform" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="https://ecommerce.sangamsoftsol.com" class="btn btn-sm btn-primary" target="_blank">Launch Application</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">ShopEasy E-commerce</h3>
+                            <p class="project-desc">A full-featured online shopping platform with secure payment processing, user accounts, and inventory management.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Multi-Cluster Dashboard -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="cloud" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/project-dashboard.jpg" alt="Multi-Cluster Dashboard" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-light">View Demo</a>
+                                <a href="projects-detail.html" class="btn btn-sm btn-outline-light ms-2">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Multi-Cluster Dashboard</h3>
+                            <p class="project-desc">Real-time monitoring dashboard for Kubernetes clusters with alerting and analytics capabilities.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Kubernetes</span>
+                                <span class="tech-tag">Prometheus</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inventory Management System -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/project-inventory.jpg" alt="Inventory Management System" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-light">View Demo</a>
+                                <a href="projects-detail.html" class="btn btn-sm btn-outline-light ms-2">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Inventory Management</h3>
+                            <p class="project-desc">Comprehensive system for tracking and managing inventory with reporting and forecasting tools.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Health Tracker App -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/project-health.jpg" alt="Health Tracker App" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-light">View Demo</a>
+                                <a href="projects-detail.html" class="btn btn-sm btn-outline-light ms-2">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Health Tracker App</h3>
+                            <p class="project-desc">Mobile application for tracking fitness activities, nutrition, and health metrics with personalized insights.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Customer Service Bot -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="ai" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/project-ai-bot.jpg" alt="AI Customer Service Bot" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-light">View Demo</a>
+                                <a href="projects-detail.html" class="btn btn-sm btn-outline-light ms-2">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">AI Customer Service Bot</h3>
+                            <p class="project-desc">Intelligent chatbot for customer support with natural language processing and learning capabilities.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">TensorFlow</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Financial Management Platform -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/project-finance.jpg" alt="Financial Management Platform" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-light">View Demo</a>
+                                <a href="projects-detail.html" class="btn btn-sm btn-outline-light ms-2">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Financial Management Platform</h3>
+                            <p class="project-desc">Secure platform for managing investments, expenses, and financial planning with data visualization.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">.NET Core</span>
+                                <span class="tech-tag">SQL Server</span>
+                                <span class="tech-tag">Azure</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Smart Home Control App -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/project-smarthome.jpg" alt="Smart Home Control App" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-light">View Demo</a>
+                                <a href="projects-detail.html" class="btn btn-sm btn-outline-light ms-2">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Smart Home Control App</h3>
+                            <p class="project-desc">Mobile application for controlling and automating smart home devices with voice commands and scheduling.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Dart</span>
+                                <span class="tech-tag">IoT</span>
+                                <span class="tech-tag">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud Migration Service -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="cloud" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/project-cloud.jpg" alt="Cloud Migration Service" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-light">View Demo</a>
+                                <a href="projects-detail.html" class="btn btn-sm btn-outline-light ms-2">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Cloud Migration Service</h3>
+                            <p class="project-desc">End-to-end service for migrating on-premises infrastructure to cloud with minimal downtime.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">Terraform</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Predictive Analytics Tool -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="ai" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/project-analytics.jpg" alt="Predictive Analytics Tool" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-light">View Demo</a>
+                                <a href="projects-detail.html" class="btn btn-sm btn-outline-light ms-2">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Predictive Analytics Tool</h3>
+                            <p class="project-desc">Advanced analytics tool using machine learning to predict business trends and customer behavior.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Scikit-learn</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Tableau</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Pagination -->
+    <section class="pagination-section py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="Project pagination">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="cta-content text-center" data-aos="fade-up">
+                <h2 class="cta-title">Have a project in mind?</h2>
+                <p class="cta-text">Let's discuss how SangamSoft can help you bring your vision to life.</p>
+                <a href="contact.html" class="btn btn-primary btn-lg">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="footer-title">SangamSoft Solutions</h4>
+                    <p class="footer-text">Delivering excellence in software development and IT solutions since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-subtitle">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-subtitle">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html#web-development">Web Development</a></li>
+                        <li><a href="services.html#app-development">App Development</a></li>
+                        <li><a href="services.html#cloud-solutions">Cloud Solutions</a></li>
+                        <li><a href="services.html#devops">DevOps Services</a></li>
+                        <li><a href="services.html#ai-ml">AI & Machine Learning</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="footer-subtitle">Contact Us</h5>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Park, Silicon Valley, CA 94043</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@sangamsoftsol.com</li>
+                    </ul>
+                    <div class="newsletter">
+                        <h5 class="footer-subtitle">Subscribe to our newsletter</h5>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your email">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="copyright">© 2025 SangamSoft Solutions. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="footer-bottom-links">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,606 @@
+/* 
+*  SangamSoft Solutions - Responsive Stylesheet
+*  Version: 1.0
+*/
+
+/*--------------------------------------------------------------
+# Base Responsive Settings
+--------------------------------------------------------------*/
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*--------------------------------------------------------------
+# Navigation Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 991.98px) {
+    /* Navbar adjustments */
+    .navbar {
+        padding: 10px 0;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+    /* Bootstrap navbar toggler customization */
+    .navbar-toggler {
+        border: none;
+        padding: 10px;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    
+    /* Improve dropdown appearance on mobile */
+    .dropdown-menu {
+        border: none;
+        padding: 0.5rem 0;
+        margin-top: 0;
+        margin-left: 1rem;
+        background-color: rgba(0, 0, 0, 0.02);
+        box-shadow: none;
+    }
+    
+    .dropdown-item {
+        padding: 0.75rem 1.5rem;
+    }
+    
+    /* Fix navbar collapse on mobile */
+    .navbar-collapse {
+        max-height: 80vh;
+        overflow-y: auto;
+        padding: 10px 0;
+    }
+    
+    /* Space out nav items */
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 10px 15px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Hero Section Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 991.98px) {
+    .hero-section {
+        padding: 80px 0 100px;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-image {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-section {
+        padding: 60px 0 80px;
+        text-align: center;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
+    }
+    
+    /* Fix button spacing */
+    .hero-buttons .btn-lg {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+    
+    .hero-buttons .ms-3 {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Section Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* Section titles */
+    .section-title {
+        font-size: 1.75rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+    }
+    
+    /* Card spacing */
+    .service-card, 
+    .feature-card, 
+    .project-card, 
+    .blog-card {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    /* Card images aspect ratio */
+    .project-image img {
+        height: 200px;
+    }
+    
+    .blog-image img {
+        height: 180px;
+    }
+    
+    /* CTA section */
+    .cta-section {
+        text-align: center;
+    }
+    
+    .cta-title {
+        font-size: 1.75rem;
+    }
+    
+    .cta-text {
+        font-size: 1rem;
+    }
+}
+
+/*--------------------------------------------------------------
+# Footer Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 991.98px) {
+    .footer {
+        padding: 60px 0 0;
+    }
+    
+    .footer-bottom-links {
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer {
+        padding: 40px 0 0;
+        text-align: center;
+    }
+    
+    .footer-title {
+        margin-top: 30px;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .footer-links {
+        margin-bottom: 30px;
+    }
+    
+    .footer-contact li {
+        justify-content: center;
+    }
+    
+    .footer-bottom {
+        text-align: center;
+    }
+    
+    .footer-bottom-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /* Newsletter form */
+    .newsletter .input-group {
+        flex-direction: column;
+    }
+    
+    .newsletter .input-group .form-control {
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+    
+    .newsletter .input-group .btn {
+        border-radius: 8px;
+        width: 100%;
+    }
+}
+
+/*--------------------------------------------------------------
+# Form Elements Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* Form controls */
+    .form-control, .btn {
+        font-size: 16px; /* Prevents iOS zoom on focus */
+        padding: 12px 15px;
+    }
+    
+    /* Form spacing */
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    /* Buttons */
+    .btn {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        min-height: 44px; /* Minimum touch target size */
+    }
+    
+    /* Contact form */
+    .contact-form {
+        padding: 20px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Image and Media Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* Ensure responsive images */
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Image aspect ratios */
+    .project-image img {
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .blog-image img {
+        height: 180px;
+        object-fit: cover;
+    }
+    
+    /* Back to top button */
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Grid and Layout Adjustments
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* Improve spacing */
+    .row > [class*="col-"] {
+        margin-bottom: 20px;
+    }
+    
+    .row > [class*="col-"]:last-child {
+        margin-bottom: 0;
+    }
+    
+    /* Section padding */
+    .py-5 {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    
+    /* Section margins */
+    .mb-5 {
+        margin-bottom: 30px !important;
+    }
+    
+    .mt-5 {
+        margin-top: 30px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Typography Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    body {
+        font-size: 15px;
+    }
+    
+    h1 {
+        font-size: 1.875rem; /* 30px */
+    }
+    
+    h2 {
+        font-size: 1.5rem; /* 24px */
+    }
+    
+    h3 {
+        font-size: 1.25rem; /* 20px */
+    }
+    
+    h4 {
+        font-size: 1.125rem; /* 18px */
+    }
+    
+    .service-title, .feature-title, .project-title, .blog-title {
+        font-size: 1.125rem;
+    }
+}
+
+/*--------------------------------------------------------------
+# Animation Optimizations for Mobile
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* Disable or simplify animations */
+    .floating {
+        animation: none !important;
+    }
+    
+    /* Optional: Disable AOS animations on mobile */
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Projects Page Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* Project filters */
+    .filter-buttons {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 15px;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .filter-btn {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        margin-right: 10px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Blog Page Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* Blog featured content */
+    .blog-featured-title {
+        font-size: 1.5rem;
+    }
+    
+    .blog-featured-meta {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    /* Blog content */
+    .blog-detail-title {
+        font-size: 1.75rem;
+    }
+    
+    .blog-detail-meta {
+        flex-wrap: wrap;
+    }
+    
+    /* Blog author */
+    .blog-author {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .blog-author-image {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    /* Comments */
+    .comment-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .comment-author-image {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/*--------------------------------------------------------------
+# About Page Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* About content */
+    .about-content {
+        text-align: center;
+    }
+    
+    .experience-badge {
+        position: static;
+        margin: 20px auto;
+        max-width: 200px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Contact Page Responsive Styles
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* Contact info cards */
+    .contact-info-card {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .contact-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Map container */
+    .map-container {
+        height: 300px;
+        margin-top: 30px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Utility Classes for Responsive Design
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* Text alignment utilities */
+    .text-center-sm {
+        text-align: center !important;
+    }
+    
+    .text-left-sm {
+        text-align: left !important;
+    }
+    
+    .text-right-sm {
+        text-align: right !important;
+    }
+    
+    /* Bootstrap utility overrides for mobile */
+    .text-md-end {
+        text-align: center !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Bootstrap 5 Specific Adjustments
+--------------------------------------------------------------*/
+/* Ensure all .img-fluid images work properly */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure buttons are properly spaced on mobile */
+@media (max-width: 767.98px) {
+    .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    
+    /* Fix spacing issues in various components */
+    .ms-3 {
+        margin-left: 0.5rem !important;
+    }
+    
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    /* Adjust row gutters */
+    .row {
+        --bs-gutter-x: 1.5rem;
+    }
+}
+
+/* Fix for iOS form input zoom */
+@media (max-width: 767.98px) {
+    input, select, textarea {
+        font-size: 16px !important;
+    }
+}
+
+/* Project item images */
+.project-card .project-image img,
+.blog-card .blog-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Touch-friendly improvements */
+@media (max-width: 767.98px) {
+    .dropdown-item,
+    .nav-link,
+    .social-link,
+    .footer-links a {
+        padding: 10px 15px;
+        display: inline-block;
+    }
+    
+    .dropdown-menu {
+        min-width: 100%;
+    }
+}
+
+/*--------------------------------------------------------------
+# Additional Mobile UX Improvements
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+    /* Increase spacing between items */
+    p {
+        margin-bottom: 1.2rem;
+    }
+    
+    /* Larger icons for better visibility */
+    .service-icon, .feature-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Center elements that look better centered on mobile */
+    .service-card, .feature-card {
+        text-align: center;
+    }
+}
+
+/* Fix for device-specific issues */
+@media screen and (max-width: 320px) {
+    /* Extra small devices */
+    .hero-title {
+        font-size: 1.75rem;
+    }
+}
+
+/* Fix for uneven buttons on mobile */
+@media (max-width: 767.98px) {
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+    
+    .hero-buttons .btn {
+        width: 80%;
+        max-width: 250px;
+        margin: 0 !important;
+    }
+    
+    /* Remove the Bootstrap margin spacing that's causing the offset */
+    .hero-buttons .ms-3 {
+        margin-left: 0 !important;
+    }
+}

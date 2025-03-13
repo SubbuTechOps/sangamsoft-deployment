@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SangamSoft Solutions - Software & IT Development Made Simple</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/responsive.css"> 
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">Sangam<span class="brand-highlight">Soft</span></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html#web-development">Web Development</a></li>
+                            <li><a class="dropdown-item" href="services.html#app-development">App Development</a></li>
+                            <li><a class="dropdown-item" href="services.html#cloud-solutions">Cloud Solutions</a></li>
+                            <li><a class="dropdown-item" href="services.html#devops">DevOps Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://subbutechops.com/">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-text" data-aos="fade-right">
+                    <h1 class="hero-title">Software & IT Solutions <span class="gradient-text">Made Simple</span></h1>
+                    <p class="hero-subtitle">We transform complex ideas into clear strategies, making your software development journey smooth and successful.</p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary btn-lg">Get Started</a>
+                        <a href="services.html" class="btn btn-outline-primary btn-lg ms-3">Our Services</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-image" data-aos="fade-left">
+                    <img src="../img/hero-image.jpeg" alt="Digital Solutions" class="img-fluid floating">
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape">
+            <img src="../img/wave-shape.svg" alt="">
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+                <p class="section-subtitle">Comprehensive IT solutions tailored to your business needs</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-desc">Custom web applications with responsive design and robust functionality.</p>
+                        <a href="services.html#web-development" class="btn-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="service-title">App Development</h3>
+                        <p class="service-desc">Native and cross-platform mobile applications for iOS and Android.</p>
+                        <a href="services.html#app-development" class="btn-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3 class="service-title">Cloud Solutions</h3>
+                        <p class="service-desc">Scalable cloud infrastructure setup, migration, and management.</p>
+                        <a href="services.html#cloud-solutions" class="btn-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="service-title">DevOps Services</h3>
+                        <p class="service-desc">Streamline your development workflow with CI/CD and automation.</p>
+                        <a href="services.html#devops" class="btn-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="projects-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Explore our portfolio of successful solutions</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/img/shopeasy.png" alt="ShopEasy E-commerce Platform" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="projects-detail.html" class="btn btn-sm btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">ShopEasy E-commerce</h3>
+                            <p class="project-desc">A full-featured online shopping platform with secure payment processing.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/img/subbuk8s.png" alt="Multi-Cluster Dashboard" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="projects-detail.html" class="btn btn-sm btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Multi-Cluster Dashboard</h3>
+                            <p class="project-desc">Real-time monitoring dashboard for Kubernetes clusters.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/img/Inventory-Management.png" alt="Inventory Management System" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="projects-detail.html" class="btn btn-sm btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Inventory Management</h3>
+                            <p class="project-desc">Comprehensive system for tracking and managing inventory.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4" data-aos="fade-up">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Why Choose <span class="gradient-text">SangamSoft</span></h2>
+                <p class="section-subtitle">What sets us apart from the competition</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <h3 class="feature-title">Dedicated Team</h3>
+                        <p class="feature-desc">Our experienced professionals are committed to your project's success from start to finish.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="feature-title">Fast Delivery</h3>
+                        <p class="feature-desc">We follow agile methodologies to ensure rapid development without compromising quality.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 class="feature-title">24/7 Support</h3>
+                        <p class="feature-desc">Our support team is always available to address any issues or concerns you may have.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h3 class="feature-title">Cutting-Edge Tech</h3>
+                        <p class="feature-desc">We utilize the latest technologies and frameworks to build modern, efficient solutions.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Security First</h3>
+                        <p class="feature-desc">We prioritize the security of your data and applications at every stage of development.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="feature-title">Scalable Solutions</h3>
+                        <p class="feature-desc">Our applications are designed to grow with your business needs and user base.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Blog Posts -->
+    <section class="blog-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Latest from our <span class="gradient-text">Blog</span></h2>
+                <p class="section-subtitle">Insights, tutorials, and tech news</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="/img/Networking-DevOps.png" alt="Networking Essentials for DevOps Professionals" class="blog-detail-image">
+                            <div class="blog-date">
+                                <span class="date">28</span>
+                                <span class="month">Nov</span>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <h3 class="blog-title">Networking Essentials for DevOps Professionals</h3>
+                            <p class="blog-excerpt">Networking forms the backbone of modern IT infrastructure, and it is essential for DevOps professionals to grasp its fundamental concepts.</p>
+                            <a href="https://subbutechops.com/networking-essentials-for-devops-professionals/" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="/img/APIs.png" alt="Understanding APIs" class="img-fluid">
+                            <div class="blog-date">
+                                <span class="date">07</span>
+                                <span class="month">Feb</span>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <h3 class="blog-title">Understanding APIs</h3>
+                            <p class="blog-excerpt">A Developer’s Guide to Building and Using APIs</p>
+                            <a href="https://subbutechops.com/understanding-apis-a-developers-guide-to-building-and-using-apis/" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="img/blog-ai.jpg" alt="AI in Software Development" class="img-fluid">
+                            <div class="blog-date">
+                                <span class="date">27</span>
+                                <span class="month">Feb</span>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <h3 class="blog-title">The Role of AI in Modern Software Development</h3>
+                            <p class="blog-excerpt">How artificial intelligence is transforming the way we build and maintain software.</p>
+                            <a href="blog-detail.html" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4" data-aos="fade-up">
+                <a href="https://subbutechops.com/blog/" class="btn btn-primary">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="cta-content text-center" data-aos="fade-up">
+                <h2 class="cta-title">Ready to transform your ideas into reality?</h2>
+                <p class="cta-text">Let's discuss how SangamSoft can help you achieve your business goals.</p>
+                <a href="contact.html" class="btn btn-primary btn-lg">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="footer-title">SangamSoft Solutions</h4>
+                    <p class="footer-text">Delivering excellence in software development and IT solutions since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-subtitle">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="https://subbutechops.com/">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-subtitle">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html#web-development">Web Development</a></li>
+                        <li><a href="services.html#app-development">App Development</a></li>
+                        <li><a href="services.html#cloud-solutions">Cloud Solutions</a></li>
+                        <li><a href="services.html#devops">DevOps Services</a></li>
+                        <li><a href="services.html#ai-ml">AI & Machine Learning</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="footer-subtitle">Contact Us</h5>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Park, Silicon Valley, CA 94043</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@sangamsoftsol.com</li>
+                    </ul>
+                    <div class="newsletter">
+                        <h5 class="footer-subtitle">Subscribe to our newsletter</h5>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your email">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="copyright">© 2025 SangamSoft Solutions. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="footer-bottom-links">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

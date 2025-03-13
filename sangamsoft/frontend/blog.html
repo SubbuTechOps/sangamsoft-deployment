@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - SangamSoft Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">Sangam<span class="brand-highlight">Soft</span></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html#web-development">Web Development</a></li>
+                            <li><a class="dropdown-item" href="services.html#app-development">App Development</a></li>
+                            <li><a class="dropdown-item" href="services.html#cloud-solutions">Cloud Solutions</a></li>
+                            <li><a class="dropdown-item" href="services.html#devops">DevOps Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title" data-aos="fade-up">Our <span class="gradient-text">Blog</span></h1>
+                    <nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="100">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="page-header-shape">
+            <img src="img/wave-shape.svg" alt="Wave Shape">
+        </div>
+    </section>
+
+    <!-- Featured Blog Post -->
+    <section class="featured-blog-section py-5">
+        <div class="container">
+            <div class="blog-featured" data-aos="fade-up">
+                <img src="img/blog-featured.jpg" alt="Featured Blog Post" class="blog-featured-image">
+                <div class="blog-featured-content">
+                    <h2 class="blog-featured-title">The Future of Cloud Computing: Trends to Watch in 2025</h2>
+                    <div class="blog-featured-meta">
+                        <span class="blog-meta-item"><i class="far fa-calendar-alt"></i> March 15, 2025</span>
+                        <span class="blog-meta-item"><i class="far fa-user"></i> By John Smith</span>
+                        <span class="blog-meta-item"><i class="far fa-folder"></i> Cloud Computing</span>
+                    </div>
+                    <p>Explore the latest trends and technologies shaping the future of cloud computing in 2025 and beyond. Learn how businesses are leveraging these advancements to drive innovation and growth.</p>
+                    <a href="blog-detail.html" class="btn btn-light">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Blog Post 1 -->
+                    <div class="blog-card mb-4" data-aos="fade-up">
+                        <div class="blog-image">
+                            <img src="img/blog-cloud.jpg" alt="Cloud Computing Trends" class="img-fluid">
+                            <div class="blog-date">
+                                <span class="date">15</span>
+                                <span class="month">Mar</span>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <h3 class="blog-title">Cloud Computing Trends in 2025</h3>
+                            <div class="blog-meta mb-3">
+                                <span class="blog-meta-item"><i class="far fa-user"></i> By John Smith</span>
+                                <span class="blog-meta-item"><i class="far fa-folder"></i> Cloud Computing</span>
+                                <span class="blog-meta-item"><i class="far fa-comments"></i> 8 Comments</span>
+                            </div>
+                            <p class="blog-excerpt">Explore the latest trends and technologies shaping the future of cloud computing. From multi-cloud strategies to serverless architectures, we cover what's driving innovation in the cloud space.</p>
+                            <a href="blog-detail.html" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Blog Post 2 -->
+                    <div class="blog-card mb-4" data-aos="fade-up">
+                        <div class="blog-image">
+                            <img src="img/blog-security.jpg" alt="Cybersecurity Best Practices" class="img-fluid">
+                            <div class="blog-date">
+                                <span class="date">08</span>
+                                <span class="month">Mar</span>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <h3 class="blog-title">Cybersecurity Best Practices for Businesses</h3>
+                            <div class="blog-meta mb-3">
+                                <span class="blog-meta-item"><i class="far fa-user"></i> By Emily Johnson</span>
+                                <span class="blog-meta-item"><i class="far fa-folder"></i> Cybersecurity</span>
+                                <span class="blog-meta-item"><i class="far fa-comments"></i> 12 Comments</span>
+                            </div>
+                            <p class="blog-excerpt">Essential security measures every business should implement to protect their data and systems from cyber threats. Learn how to create a robust security posture for your organization.</p>
+                            <a href="blog-detail.html" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Blog Post 3 -->
+                    <div class="blog-card mb-4" data-aos="fade-up">
+                        <div class="blog-image">
+                            <img src="img/blog-ai.jpg" alt="AI in Software Development" class="img-fluid">
+                            <div class="blog-date">
+                                <span class="date">27</span>
+                                <span class="month">Feb</span>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <h3 class="blog-title">The Role of AI in Modern Software Development</h3>
+                            <div class="blog-meta mb-3">
+                                <span class="blog-meta-item"><i class="far fa-user"></i> By David Wilson</span>
+                                <span class="blog-meta-item"><i class="far fa-folder"></i> AI & ML</span>
+                                <span class="blog-meta-item"><i class="far fa-comments"></i> 6 Comments</span>
+                            </div>
+                            <p class="blog-excerpt">How artificial intelligence is transforming the way we build and maintain software. Discover the practical applications of AI in code generation, testing, and quality assurance.</p>
+                            <a href="blog-detail.html" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Blog Post 4 -->
+                    <div class="blog-card mb-4" data-aos="fade-up">
+                        <div class="blog-image">
+                            <img src="img/blog-web-dev.jpg" alt="Web Development Frameworks" class="img-fluid">
+                            <div class="blog-date">
+                                <span class="date">15</span>
+                                <span class="month">Feb</span>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <h3 class="blog-title">Top Web Development Frameworks to Consider in 2025</h3>
+                            <div class="blog-meta mb-3">
+                                <span class="blog-meta-item"><i class="far fa-user"></i> By Sarah Brown</span>
+                                <span class="blog-meta-item"><i class="far fa-folder"></i> Web Development</span>
+                                <span class="blog-meta-item"><i class="far fa-comments"></i> 10 Comments</span>
+                            </div>
+                            <p class="blog-excerpt">A comprehensive comparison of the most popular web development frameworks in 2025. Learn their strengths, weaknesses, and which one might be the best fit for your next project.</p>
+                            <a href="blog-detail.html" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <nav aria-label="Blog pagination" class="mt-5">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                    <!-- Search Widget -->
+                    <div class="blog-search mb-4" data-aos="fade-up">
+                        <h4 class="mb-3">Search</h4>
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search blog...">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Categories Widget -->
+                    <div class="blog-categories mb-4" data-aos="fade-up">
+                        <h4 class="mb-3">Categories</h4>
+                        <ul class="blog-categories-list">
+                            <li><a href="#">Web Development <span>(12)</span></a></li>
+                            <li><a href="#">Mobile App Development <span>(8)</span></a></li>
+                            <li><a href="#">Cloud Computing <span>(10)</span></a></li>
+                            <li><a href="#">DevOps <span>(6)</span></a></li>
+                            <li><a href="#">AI & Machine Learning <span>(4)</span></a></li>
+                            <li><a href="#">Cybersecurity <span>(9)</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Recent Posts Widget -->
+                    <div class="recent-posts mb-4" data-aos="fade-up">
+                        <h4 class="mb-3">Recent Posts</h4>
+                        <div class="recent-post-item d-flex mb-3">
+                            <div class="recent-post-img me-3">
+                                <img src="img/blog-cloud-small.jpg" alt="Recent Post" width="80" height="80" class="rounded">
+                            </div>
+                            <div class="recent-post-info">
+                                <h6 class="mb-1"><a href="blog-detail.html">Cloud Computing Trends in 2025</a></h6>
+                                <span class="text-muted small">March 15, 2025</span>
+                            </div>
+                        </div>
+                        <div class="recent-post-item d-flex mb-3">
+                            <div class="recent-post-img me-3">
+                                <img src="img/blog-security-small.jpg" alt="Recent Post" width="80" height="80" class="rounded">
+                            </div>
+                            <div class="recent-post-info">
+                                <h6 class="mb-1"><a href="blog-detail.html">Cybersecurity Best Practices for Businesses</a></h6>
+                                <span class="text-muted small">March 8, 2025</span>
+                            </div>
+                        </div>
+                        <div class="recent-post-item d-flex mb-3">
+                            <div class="recent-post-img me-3">
+                                <img src="img/blog-ai-small.jpg" alt="Recent Post" width="80" height="80" class="rounded">
+                            </div>
+                            <div class="recent-post-info">
+                                <h6 class="mb-1"><a href="blog-detail.html">The Role of AI in Modern Software Development</a></h6>
+                                <span class="text-muted small">February 27, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tags Widget -->
+                    <div class="blog-tags mb-4" data-aos="fade-up">
+                        <h4 class="mb-3">Popular Tags</h4>
+                        <div class="tag-cloud">
+                            <a href="#" class="tag-item">Web Development</a>
+                            <a href="#" class="tag-item">Mobile Apps</a>
+                            <a href="#" class="tag-item">Cloud</a>
+                            <a href="#" class="tag-item">DevOps</a>
+                            <a href="#" class="tag-item">AI</a>
+                            <a href="#" class="tag-item">Machine Learning</a>
+                            <a href="#" class="tag-item">Security</a>
+                            <a href="#" class="tag-item">React</a>
+                            <a href="#" class="tag-item">Python</a>
+                            <a href="#" class="tag-item">JavaScript</a>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Widget -->
+                    <div class="newsletter-widget p-4 bg-light rounded" data-aos="fade-up">
+                        <h4 class="mb-3">Subscribe</h4>
+                        <p>Stay updated with our latest insights and news.</p>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your email">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="cta-content text-center" data-aos="fade-up">
+                <h2 class="cta-title">Have a topic you'd like us to cover?</h2>
+                <p class="cta-text">We're always looking for new ideas and feedback from our readers.</p>
+                <a href="contact.html" class="btn btn-primary btn-lg">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="footer-title">SangamSoft Solutions</h4>
+                    <p class="footer-text">Delivering excellence in software development and IT solutions since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-subtitle">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-subtitle">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html#web-development">Web Development</a></li>
+                        <li><a href="services.html#app-development">App Development</a></li>
+                        <li><a href="services.html#cloud-solutions">Cloud Solutions</a></li>
+                        <li><a href="services.html#devops">DevOps Services</a></li>
+                        <li><a href="services.html#ai-ml">AI & Machine Learning</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="footer-subtitle">Contact Us</h5>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Park, Silicon Valley, CA 94043</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@sangamsoftsol.com</li>
+                    </ul>
+                    <div class="newsletter">
+                        <h5 class="footer-subtitle">Subscribe to our newsletter</h5>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your email">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="copyright">© 2025 SangamSoft Solutions. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="footer-bottom-links">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

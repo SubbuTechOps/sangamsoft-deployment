@@ -1,0 +1,18 @@
+# Sensitive files
+*.pem
+*.key
+*.crt
+.env
+config.ini
+*_secret*
+
+# Runtime files
+__pycache__/
+*.py[cod]
+venv/
+node_modules/
+.DS_Store
+
+# Logs
+*.log
+logs/
